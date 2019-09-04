@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+html ,body {
+    margin: 0;
+     /*overflow: hidden;*/
+    /*Remove to be able to scroll*/
+}
+
+
+.viewBlog {
+    background-image: url('../img/avalon.jpg');
+
+    /*position: relative;  Gives White Margin On Top
+                            Fix: [position: absolute]
+                            then add [width: 100%] */
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.viewBlog-inner {
+
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    /* padding-top: 15px; */
+}
+.viewBlog-content {
+    text-align: center;
+}
+
+.viewBlog table {
+    background: rgba(0, 0, 0, 0.4);
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    text-align: center;
+    max-width: 80%;
+}
+img {
+    border-radius: 50px;
+}
+thead{
+    color: orange;
+    background-color: black;
+}
+
+tbody {
+    color: white;
+    border-color: orange;
+}
+tbody a:hover {
+    color: blue;
+}
+
+tr:hover {
+    color: chartreuse;
+    border-color: red;
+}
+
+
+
+
+.nav-bar a:hover,focus{
+    color: chartreuse;
+}
